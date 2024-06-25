@@ -1,0 +1,9 @@
+Here's how the program works:
+
+The keyboard module is used to capture keystrokes.
+The log_file_path variable sets the path and name of the log file where keystrokes will be recorded.
+The program creates the log file if it doesn't exist, and writes a header line with the current date and time.
+The log_key function is defined to log each keystroke. It takes an event object as an argument, which contains information about the keystroke (e.g., the key pressed).
+The log_key function writes the key pressed to the log file, followed by a newline character.
+The keyboard.on_press function is used to register the log_key function to be called whenever a key is pressed.
+The program enters an infinite loop to keep running indefinitely.
