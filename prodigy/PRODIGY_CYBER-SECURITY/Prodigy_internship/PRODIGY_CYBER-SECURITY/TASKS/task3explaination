@@ -1,0 +1,8 @@
+Here's how the script works:
+
+The password_strength function takes a password as input and assesses its strength based on the criteria mentioned above.
+It uses regular expressions to check for the presence of uppercase letters, lowercase letters, numbers, and special characters.
+It assigns a score from 0 to 4 based on the number of criteria met.
+The main function prompts the user to enter a password and calls the password_strength function to assess its strength.
+The script prints out the password strength level based on the score.
+You can run this script and test it with different passwords to see how it assesses their strength.

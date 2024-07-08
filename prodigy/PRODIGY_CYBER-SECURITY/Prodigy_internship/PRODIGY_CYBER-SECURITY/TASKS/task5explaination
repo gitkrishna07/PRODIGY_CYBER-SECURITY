@@ -1,0 +1,11 @@
+This script captures PACKET_COUNT packets on the specified INTERFACE and analyzes each packet to extract the source and destination IP addresses, protocol, and payload data. The payload data is decoded as UTF-8 and displayed as a string.
+
+Ethical Use
+
+As with any packet sniffer tool, it's essential to use this tool ethically and responsibly. Here are some guidelines to ensure ethical use:
+
+Obtain permission: Before capturing packets, obtain permission from the network administrator or the owner of the network.
+Respect privacy: Do not capture or analyze packets that contain sensitive or confidential information, such as passwords, credit card numbers, or personal data.
+Use for educational purposes only: This tool is intended for educational purposes, such as learning about network protocols, packet analysis, and security. Do not use it for malicious or illegal activities.
+Do not intercept or modify packets: This tool is designed to capture and analyze packets, not to intercept or modify them. Do not use it to inject malware, steal data, or disrupt network communications.
+Comply with laws and regulations: Ensure that your use of this tool complies with applicable laws and regulations, such as wiretapping laws and data protection regulations.
